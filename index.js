@@ -8,6 +8,11 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/twitter', (req, res) => {
+  res.send('hello twitter!')
+})
+
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
