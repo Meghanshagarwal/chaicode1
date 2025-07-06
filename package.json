@@ -1,0 +1,16 @@
+{
+  "name": "chaibackend",
+  "version": "1.0.0",
+  "description": "a bsi app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "meghansh agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0"
+  }
+}
