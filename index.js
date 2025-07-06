@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/twitter', (req, res) => {
-  res.send('hello twitter!')
+  res.send('hello twitter')
 })
 
 
